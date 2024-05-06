@@ -31,6 +31,15 @@ body {
   margin-right: 10px; /* Adjust the spacing between buttons as needed */
 }
 
+.fname {
+  font-size: 48px; /* You can adjust the font size as needed */
+  margin-bottom: 40px; /* Adds spacing at the bottom of the text */
+}
+
+.lname {
+  font-size: 40px; /* You can adjust the font size as needed */
+}
+
 /* Image Container */
 .image-container {
   display: inline-block;
