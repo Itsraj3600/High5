@@ -10,6 +10,15 @@ body {
   font-family: "Roboto", sans-serif; /* Use Roboto font */
 }
 
+.fname {
+  font-size: 48px; /* You can adjust the font size as needed */
+  margin-bottom: 40px; /* Adds spacing at the bottom of the text */
+}
+
+.lname {
+  font-size: 40px; /* You can adjust the font size as needed */
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
