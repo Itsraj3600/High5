@@ -31,22 +31,6 @@ body {
   margin-right: 10px; /* Adjust the spacing between buttons as needed */
 }
 
-/* Image Container */
-.image-container {
-  display: inline-block;
-  padding: 4px;
-  background-color: white;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Blurry shadow effect */
-  border-radius: 10px; /* Rounded corners */
-  max-width: 150px;
-  max-height: 180px;
-  overflow: hidden;
-  float: left;
-  margin-right: 20px;
-  margin-left: 5px;
-  margin-bottom: 20px;
-}
-
 /* Info */
 .info {
   display: flex; /* Use flexbox to align items */
@@ -77,14 +61,10 @@ body {
   font-size: 25px;
 }
 
-/* Expiry */
-.expiry {
-}
-
 /* Image inside Container */
 .imgbox {
   display: block;
-  width: 175px;
+  width: 150px;
   height: 225px;
   border-radius: 10px; /* Rounded corners */
   border: 5px solid white; /* Adjust the thickness of the outline as needed */
@@ -114,9 +94,7 @@ body {
   height: 100px; /* Automatically adjust height */
   margin-right: 20px; /* Add some space between the background GIF and text */
 }
-.expiry {
-  /* You can add specific styling for the expiry here */
-}
+
 .Qr {
   margin: 0; /* Reset margin */
   white-space: nowrap; /* Prevent text from wrapping */
