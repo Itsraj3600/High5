@@ -64,13 +64,18 @@ body {
 /* Image inside Container */
 .imgbox {
   display: block;
-  width: 150px;
-  height: 225px;
+  width: 160px;
+  height: 235px;
   border-radius: 10px; /* Rounded corners */
   border: 5px solid white; /* Adjust the thickness of the outline as needed */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
     /* Outside shadow */ inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inside shadow */
   margin-bottom: 10px; /* Add some space below the container */
+}
+
+/*Expiry Date Size*/
+.expiry {
+  font-size: 18px;
 }
 
 /* Blurry Shadow for QR Code */
@@ -91,7 +96,7 @@ body {
 }
 .gif-background {
   width: 120px; /* Set the width of the background GIF */
-  height: 100px; /* Automatically adjust height */
+  height: 110px; /* Automatically adjust height */
   margin-right: 20px; /* Add some space between the background GIF and text */
 }
 
@@ -112,7 +117,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px; /* Adjust font size */
+  font-size: 26px; /* Adjust font size */
   font-weight: bold;
   color: black; /* Text color */
   z-index: 1; /* Ensure text is above GIF */
@@ -129,10 +134,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 42px;
   z-index: 0; /* Ensure GIF is behind text */
 }
 
 .barcode {
-  margin-top: 20px;
+  margin-top: 16px;
 }
