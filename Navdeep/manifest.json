@@ -1,0 +1,17 @@
+{
+    "theme_color": "#1976d2",
+    "background_color": "#fafafa",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "Icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ],
+    "short_name": "High5.College",
+    "name": "High5.College",
+    "start_url": "./pwa",
+    "scope": "."
+  }
