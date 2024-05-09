@@ -1,8 +1,13 @@
 fieldset {
+  padding: 1px; /* Remove internal padding */
   display: inline;
   background-image: url("BG.png"); /* Set background image */
   background-size: cover; /* Cover the entire fieldset */
   background-repeat: no-repeat; /* Prevent image from repeating */
+  border-color: transparent;
+  border-width: 2px; /* Adjust as needed */
+  border-style: solid; /* or dashed, dotted, etc. */
+  background-color: rgba(255, 255, 255, 0.1); /* White color with 50% opacity */
 }
 /* Global Styles */
 body {
@@ -12,7 +17,6 @@ body {
 
 /* Buttons */
 .btn {
-  display: inline-block;
   padding: 10px 20px;
   border-radius: 5px;
   background-color: rgb(0, 162, 255);
@@ -27,6 +31,7 @@ body {
   height: 60px;
   margin-bottom: 5px;
 }
+
 .btn:not(:last-child) {
   margin-right: 10px; /* Adjust the spacing between buttons as needed */
 }
@@ -37,11 +42,6 @@ body {
   align-items: center; /* Align items vertically in the center */
 }
 
-/* Image */
-.imgbox {
-  float: left;
-  margin-right: 10px; /* Add some space between the image and text */
-}
 .name,
 .id {
   margin: 0; /* Reset margin */
@@ -63,26 +63,22 @@ body {
 
 /* Image inside Container */
 .imgbox {
+  float: left;
+  margin-right: 10px; /* Add some space between the image and text */
   display: block;
-  width: 160px;
+  width: 150px;
   height: 235px;
   border-radius: 10px; /* Rounded corners */
   border: 5px solid white; /* Adjust the thickness of the outline as needed */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
     /* Outside shadow */ inset 0 0 10px rgba(0, 0, 0, 0.5); /* Inside shadow */
-  margin-bottom: 10px; /* Add some space below the container */
+  margin-bottom: 6px; /* Add some space below the container */
+  margin-left: 10px;
 }
 
 /*Expiry Date Size*/
 .expiry {
   font-size: 18px;
-}
-
-/* Blurry Shadow for QR Code */
-.Qr {
-  float: left;
-  box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.5); /* Blurry shadow */
-  margin-left: 25px;
 }
 
 /* Container for Date and Time Overlay */
@@ -103,8 +99,11 @@ body {
 .Qr {
   margin: 0; /* Reset margin */
   white-space: nowrap; /* Prevent text from wrapping */
-  margin-right: 5px;
-  margin-top: 20px;
+  margin-right: 3px;
+  margin-top: 12px;
+  float: left;
+  box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.5); /* Blurry shadow */
+  margin-left: 6px;
 }
 
 /* Date and Time Overlay */
@@ -125,6 +124,7 @@ body {
 
 /* Transition Effect */
 .transit {
+  margin-top: 10px;
   border-radius: 10px;
 }
 
