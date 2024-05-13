@@ -137,7 +137,7 @@ body {
   height: 42px;
   z-index: 0; /* Ensure GIF is behind text */
 }
-
+/* Barcode */
 .barcode {
   margin-top: 16px;
 }
