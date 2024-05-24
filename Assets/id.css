@@ -1,7 +1,7 @@
 fieldset {
   padding: 1px; /* Remove internal padding */
   display: inline;
-  background-image: url("BG.png"); /* Set background image */
+  background-image: url("BG.png") no-repeat center center fixed; /* Set background image */
   background-size: cover; /* Cover the entire fieldset */
   background-repeat: no-repeat; /* Prevent image from repeating */
   border-color: transparent;
