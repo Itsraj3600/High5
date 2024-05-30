@@ -66,8 +66,8 @@ body {
   float: left;
   margin-right: 10px; /* Add some space between the image and text */
   display: block;
-  width: 150px;
-  height: 235px;
+  width: 125px;
+  height: 215px;
   border-radius: 10px; /* Rounded corners */
   border: 5px solid white; /* Adjust the thickness of the outline as needed */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
